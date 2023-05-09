@@ -68,7 +68,7 @@ jobs:
     
     - run: |
          echo "Run, Build Application using script"
-         ./main/build.sh
+         ./build.sh
 
 
 
