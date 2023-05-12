@@ -10,8 +10,8 @@ import com.sun.net.httpserver.HttpServer;
 
 public class Mavenproject1 {
 
-      static int[] klany = new int[20004];
-   static int[] klanyPunkty = new int [20004];
+      static int[] klany = new int[100004];
+   static int[] klanyPunkty = new int [100004];
    static short[] klanyIlosc = new short [20004];    
     static boolean[] klanyWybor = new boolean [20004];  
     static short liczebnosc;
