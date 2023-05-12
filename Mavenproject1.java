@@ -256,7 +256,7 @@ int kwota = 0;
                 }
            Mavenproject1.pozycja = Mavenproject1.pozycja +9;     
            Mavenproject1.pozycja = (bu0.indexOf("m",Mavenproject1.pozycja))+5; 
-                 Mavenproject1.pozycja2= bu0.indexOf("}",(Mavenproject1.pozycja+2));  
+                 Mavenproject1.pozycja2= bu0.indexOf("}",(Mavenproject1.pozycja+1));  
 
                 Mavenproject1.klany[Mavenproject1.licznik] = Mavenproject1.klany[Mavenproject1.licznik] + ((Integer.parseInt(((bu0.substring((Mavenproject1.pozycja), (Mavenproject1.pozycja2))).trim())))); 
 
